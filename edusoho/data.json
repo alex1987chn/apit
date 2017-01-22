@@ -1,0 +1,12 @@
+{
+        
+        "try3_home_url":"http://try3.edusoho.cn/",
+        "try3_login_url":"http://try3.edusoho.cn/login",
+        "try3_login_check":"http://try3.edusoho.cn/login_check",
+        "body":{
+            "_username":"xueyuan@edusoho.com",
+            "_password":"edusoho504",
+            "_csrf_token":"",
+            "_target_path":""
+        }
+}
