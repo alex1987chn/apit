@@ -8,7 +8,7 @@ from lxml import etree
 import agent_setting
 
 # AGENT = importlib.import_module('agent_setting')
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='gb18030') #改变标准输出的默认编码
+# sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='gb18030') #改变标准输出的默认编码
 
 
 def get_csrftoken_cookie(web_url):
