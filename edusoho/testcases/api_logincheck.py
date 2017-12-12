@@ -1,7 +1,6 @@
 # encoding=utf-8
-# python3.5.2
+# python3.6.3
 import json
-
 import assertpy
 import requests
 from lxml import etree
@@ -11,7 +10,7 @@ from reusablefunc import reusable_func
 
 # from lxml import etree
 HEADER = agent_setting.HEADER
-with open('./data.json', 'r') as f:
+with open('.\edusoho\data.json', 'r') as f:
     DATA = json.load(f)
 
  # get cookie&token in collection

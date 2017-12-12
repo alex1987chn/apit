@@ -12,7 +12,7 @@ import agent_setting
 
 
 def get_csrftoken_cookie(web_url):
-    with open('./data.json', 'r') as f:
+    with open('.\edusoho\data.json', 'r') as f:
         data = json.load(f)
 
     header = agent_setting.HEADER
